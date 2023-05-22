@@ -82,6 +82,7 @@ public class DemoAlmacen {
         System.out.println("STOCK:" + p1.getStock());
         System.out.println();
         System.out.println(p1.toString());
+        System.out.println("COLABORANDO :D");
 //
 //        System.out.println("\nPRODUCTO 2:");
 //        String json ="{'id':'ALPER','nombre':'Alfombra persa','stock':1}";
