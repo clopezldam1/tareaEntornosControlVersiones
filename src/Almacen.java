@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Clase para gestionar los productos de un almacén.
  *
@@ -70,4 +72,11 @@ public class Almacen {
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "Almacen{" +
+                "productos=" + Arrays.toString(productos) +
+                ", cantidad=" + cantidad +
+                '}';
+    }
 }
